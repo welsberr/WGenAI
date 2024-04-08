@@ -1,0 +1,17 @@
+{
+    "name": "sd-1.5",
+    "task": "text-to-image",
+    "attributes": {
+        "sdver": "1.5",
+        "weights_path": "models/Stable-diffusion/v1-5-pruned-emaonly.safetensors",
+        "is_quantized": false,
+        "weight_type": "f16",
+        "description": "Base Stability AI model for SD 1.5",
+        "use_cases": "Generic image production via instruction."
+    },
+    "requirements": {
+        "framework": "stable-diffusion",
+        "version": "1.5"
+    },
+    "publish": true
+}
